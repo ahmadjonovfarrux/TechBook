@@ -35,9 +35,6 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-//   font-family: ;
-//   font-weight: ;
-//   line-height: ;
 }
 
 main {
@@ -46,9 +43,9 @@ main {
 
 .container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 120.2rem;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
