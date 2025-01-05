@@ -24,15 +24,17 @@
       <div class="header__hero">
         <div class="header__hero__container container">
           <div class="header__hero__content">
-            <h1 class="header__hero__title">
+            <h1 class="header__hero__title text-preset-1">
               Join the ultimate tech book club
             </h1>
-            <p class="header__hero__text">
+            <p class="header__hero__text text-present-5">
               Turn your reading time into learning time with fellow tech
               enthusiasts. Get curated recommendations, join vibrant
               discussions, and level up your skills one chapter at a time.
             </p>
-            <a class="header__hero-btn" href="#">REVIEW MEMBERSHIP OPTIONS</a>
+            <a class="btn header__hero-btn text-present-6" href="#"
+              >REVIEW MEMBERSHIP OPTIONS</a
+            >
             <div class="hero__members">
               <img
                 src="./images/hero-members.png"
@@ -41,12 +43,52 @@
                 height="40"
               />
             </div>
+            <div class="header__hero__members__stars">
+              <span>
+                <img
+                  class="header__hero__stars__members__btn"
+                  src="./images/icon-star.svg"
+                  alt="image of star"
+                />
+              </span>
+              <span>
+                <img
+                  class="header__hero__stars__members__btn"
+                  src="./images/icon-star.svg"
+                  alt="image of star"
+                />
+              </span>
+              <span>
+                <img
+                  class="header__hero__stars__members__btn"
+                  src="./images/icon-star.svg"
+                  alt="image of star"
+                />
+              </span>
+              <span>
+                <img
+                  class="header__hero__stars__members__btn"
+                  src="./images/icon-star.svg"
+                  alt="image of star"
+                />
+              </span>
+            </div>
           </div>
-          <img
-            class="header__hero__img"
-            src="./images/hero-image-webp.png"
-            alt="image of 3 person reading a book"
-          />
+          <picture>
+            <source
+              srcset="./images/image-hero-mobile.webp"
+              media="(max-width: 375px)"
+            />
+            <source
+              srcset="./images/image-hero-tablet.webp"
+              media="(max-width: 850px)"
+            />
+            <img
+              class="header__hero__picture"
+              src="./images/image-hero-desktop.webp"
+              alt="image of 3 friends reading a book"
+            />
+          </picture>
         </div>
       </div>
     </header>
