@@ -7,3 +7,18 @@
   color: $neutral-900;
   font-weight: 600;
 }
+
+.btn-text {
+  display: flex;
+}
+
+.btn-text::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../images/icon-arrow-down.svg);
+  background-repeat: no-repeat;
+  margin-left: 1.6rem;
+  background-size: cover;
+}
